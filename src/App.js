@@ -12,6 +12,7 @@ import Tea from "./Tea.js";
 import Teaware from "./Teaware.js";
 import About from './About.js';
 import Footer from './Footer.js';
+import GreenTea from './greentea.js';
 
 var App = React.createClass({
   render: function() {
@@ -29,7 +30,9 @@ ReactDOM.render(
  <Router history={browserHistory}>
  	  <Route path="/" component={App} >
       <Route path="Home" component={Home}/>
-      <Route path="Tea" component={Tea}/>
+      <Route path="Tea" component={Tea}>
+        <Route path='GreenTea' component={GreenTea}/>
+      </Route>
       <Route path="Teaware" component={Teaware}/>
       <Route path="About" component={About}/>
     </Route>
