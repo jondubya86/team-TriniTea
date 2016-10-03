@@ -5,7 +5,7 @@ var Tea = React.createClass({
   render: function() {
     return (
       <div >
-     	<h1>Tea Page</h1>
+     	<h1>TEA</h1>
 
        </div>
     )
