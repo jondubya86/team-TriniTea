@@ -7,15 +7,59 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-size: 18px;
 }
+/*footer info*/
+footer {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+}
+
+footer p{
+  color:white;
+  text-align: center;
+}
 /*APP STYLES*/
 #app-main{
   border: 1px solid red;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 /*LANDING PAGE STYLES*/
 #landing-main{
+  color: white;
+  background-image: url(http://4.bp.blogspot.com/-diw0x3XcHGs/UyMGmg4ucvI/AAAAAAAAD2M/YqF_KaqQnj8/s1600/DSC_6690.JPG);
+  background-size: cover;
+  background-attachment: fixed;
   border: 1px solid blue;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+/*TEA PAGE STYLES*/
+#about-page{
+  background-image: url(./img/photo-1437315306147-0923bdb3fc12a.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 30px;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid blue;
+}
+
+/*about page*/
+
+#about-page p{
+  color: white;
+  height: 5em;
+  padding-top: .25em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  margin-top: 5.0em;
 }
 
 
@@ -23,7 +67,7 @@ h1,h2,h3,h4,h5,h6{
   text-align: center;
 }
 
-.App-logo {
+/*.App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
@@ -36,7 +80,7 @@ h1,h2,h3,h4,h5,h6{
 
 .App-intro {
   font-size: large;
-}
+}*/
 
 
 /*@keyframes App-logo-spin {
@@ -44,8 +88,8 @@ h1,h2,h3,h4,h5,h6{
   to { transform: rotate(360deg); }
 }*/
 
-#LandingImg{  
+/*#LandingImg{  
   background-image: url("http://4.bp.blogspot.com/-diw0x3XcHGs/UyMGmg4ucvI/AAAAAAAAD2M/YqF_KaqQnj8/s1600/DSC_6690.JPG");
   background-size: cover;
   height: 100vh;
-}
+}*/

@@ -8,7 +8,7 @@ var Footer = React.createClass({
   		<div>
 	    <footer className="footer">
       <div className="container">
-        <p className="text-muted">Place sticky footer content here.</p>
+        <p>&copy; 2016</p>
       </div>
     </footer>
        	</div>
