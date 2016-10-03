@@ -1,23 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, Link, browserHistory,IndexRoute} from 'react-router';
+
+// Styles
 import "bootstrap/dist/css/bootstrap.css";
-import Navbar from "./navbar.js"
+import './App.css';
+// Components
+import Navbar from "./navbar.js";
+import Home from "./Home.js";
+import Tea from "./Tea.js";
+import Teaware from "./Teaware.js";
+import About from './About.js';
+import Footer from './Footer.js';
 
 var App = React.createClass({
   render: function() {
     return (
-      <div>
-        <h1>Hello World!</h1>
+    	<div id = "app-main">
         <Navbar />
-      </div>
+        {this.props.children}
+        <Footer />
+      </div>  
     )
   }
 })
 
 ReactDOM.render(
  <Router history={browserHistory}>
- 	<Route path="/" component={App} />
+ 	  <Route path="/" component={App} >
+      <Route path="Home" component={Home}/>
+      <Route path="Tea" component={Tea}/>
+      <Route path="Teaware" component={Teaware}/>
+      <Route path="About" component={About}/>
+    </Route>
  </Router>,
   document.getElementById('root')
 );
