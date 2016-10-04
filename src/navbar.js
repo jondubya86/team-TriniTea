@@ -19,7 +19,7 @@ var Navbar = React.createClass({
             </div>
             <div id="navbar" className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
-                <li><img src = ""
+                <li>
                   <Link to='/Home'>Teahouse</Link>
                   </li>
                 <li>
