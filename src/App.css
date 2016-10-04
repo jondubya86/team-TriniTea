@@ -128,7 +128,8 @@ footer p {
 .navbar-default .navbar-brand > .active > span,
 .navbar-default .navbar-brand > .active > span:hover,
 .navbar-default .navbar-brand > .active > span:focus {
-    color:white;
+    color: white;
+    transition-delay: 2s;
 }
 
 .navbar-right li {
