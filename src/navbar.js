@@ -6,17 +6,19 @@ var Navbar = React.createClass({
   render: function() {
     return (
       <div >
+      {
+
         <nav className="navbar navbar-default navbar-fixed-top">
           <div className="container">
-            <div className="navbar-header">
-              <img src="./logo-vector.png" alt = "TriniTea logo"/>
+            <div className="navbar-header"><img src="http://i.imgur.com/CntYnbe.png" id="logo" alt="TriniTea logo"></img>
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar">a1</span>
-                <span className="icon-bar">a2</span>
-                <span className="icon-bar">a3</span>
+                <span className="icon-bar">Home</span>
+                <span className="icon-bar">Tea</span>
+                <span className="icon-bar">Teaware</span>
+                <span className="icon-bar">About</span>
               </button>
-              <Link to ="/Home" className="navbar-brand">TriniTea</Link>
+              <Link to ="/Home" className="navbar-brand brand-name pull-right"><span id ="brand-name">TriniTea</span></Link>
             </div>
             <div id="navbar" className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
@@ -36,7 +38,7 @@ var Navbar = React.createClass({
             </div>
           </div>
         </nav>
-
+}
        </div>
     )
   }
