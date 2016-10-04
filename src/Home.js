@@ -14,8 +14,8 @@ var Home = React.createClass({
 // };
 		return (
 			<div id="landing-main">
-			<h1>Welcome to TriniTea</h1><br/>
-			<h2>Where body, mind, and soul gets fueled</h2>
+			<h1 id ="landing-h1">Welcome to TriniTea</h1><br/>
+			<h2 id ="landing-h2">Fuel your mind, body, and soul</h2>
 			</div>
 			)
 	}
