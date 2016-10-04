@@ -14,18 +14,15 @@ var About = React.createClass({
       <div id = "about-page" className ="text-center">
     	<div id ="blackbox">
         <h1><strong><u>About Us</u></strong></h1><br/>
-        <p>
-        {this.state.storeProps.trinitea_slogan}<br/>
-        {this.state.storeProps.trinitea_philosophy_intro}<br/>
-        {this.state.storeProps.trinitea_philosophy_think}<br/>
-        {this.state.storeProps.trinitea_philosophy_drink}<br/>
-        {this.state.storeProps.trinitea_philosophy_live}
-        </p>
+        <p>{this.state.storeProps.trinitea_slogan}</p>
+        <p>{this.state.storeProps.trinitea_philosophy_intro}</p>
+        <p>{this.state.storeProps.trinitea_philosophy_think}</p>
+        <p>{this.state.storeProps.trinitea_philosophy_drink}</p>
+        <p>{this.state.storeProps.trinitea_philosophy_live}</p>
         <h1><strong><u>Contact</u></strong></h1><br/>
-     	 <p>{this.state.storeProps.trinitea_address}<br/>
-      	 {this.state.storeProps.trinitea_email}<br/>
-     	 {this.state.storeProps.trinitea_phone}
-     	 </p>
+     	 <p>{this.state.storeProps.trinitea_address}</p>
+      	   <p>{this.state.storeProps.trinitea_email}</p>
+     	     <p>{this.state.storeProps.trinitea_phone}</p>
       </div>
       </div>
     )

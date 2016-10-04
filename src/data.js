@@ -17,12 +17,12 @@ let data = {
      "Tea helps create an atmosphere, whether for contemplative solitude or for great conversations. Be a participant, discover new venues, and create your own tea experience. Click here for upcoming tea events. Read the Book of Tea to learn about the art of life"
      ,
     trinitea_address:
-     '31-00 47th Ave #1105, Long Island City, NY 11101'
+     'TriniTea Inc. 31-00 47th Ave #1105, Long Island City, NY 11101'
      ,
     trinitea_email:
-     'trinitea@c4q.nyc'
+     'email: trinitea@c4q.nyc'
      ,
-    trinitea_phone: '555-555-1234'
+    trinitea_phone: 'phone: (555)-555-1234'
   },
   menu: {
     black: [{name:"Ginger Chai",
