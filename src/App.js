@@ -21,7 +21,6 @@ var App = React.createClass({
         <Navbar />
         {this.props.children}
         <Footer />
-        <img src="./logo-vector.png" alt = "TriniTea logo"></img>
       </div>  
     )
   }
