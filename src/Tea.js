@@ -20,9 +20,9 @@ var Tea = React.createClass({
 			 </div>
 
 			 <div id="herbal" className="col-md-4">
-			 	<h2>Herbal Tea</h2>
+			 <h2>Herbal Tea</h2>
 			 </div>
-
+ 
 			
 		</div>
 
