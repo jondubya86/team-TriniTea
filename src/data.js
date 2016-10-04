@@ -160,22 +160,3 @@ data.getImages = function() {
 };
 
 export default data;
-
-
-1) BOCHA Loose Leaf Tea Maker with Glass Teapot, Built in Infuser and Removable Filter $17.99
-https://www.amazon.com/BOCHA-Teapot-Infuser-Removable-Filter/dp/B01AD2ZDH4/ref=sr_1_12?s=kitchen&ie=UTF8&qid=1475378618&sr=1-12&keywords=tea+maker  
-2) Chef's Star Functional Infuser Tea Maker
-$26.99
-https://www.amazon.com/Chefs-Star-Functional-Infuser-Maker/dp/B010MOL2DC/ref=sr_1_15?s=kitchen&ie=UTF8&qid=1475378618&sr=1-15&keywords=tea+maker
-3) Kendal 27 oz glass filtering tea maker teapot with a warmer and 6 tea cups 
-$39.95
-https://www.amazon.com/Kendal-filtering-teapot-warmer-CJ-800ml/dp/B00IY0ZCN8/ref=sr_1_58?s=kitchen&ie=UTF8&qid=1475378949&sr=1-58&keywords=tea+maker
-4)VidaKai Infuser Water Bottle for Loose Leaf Tea and Cold Brew Coffee and Fruit Water 
-$14.95
-https://www.amazon.com/dp/B016NCDEI8?psc=1
-5)Takeya 2 Qt. Flash Chill Tea Maker Set
-$31.99
-https://www.amazon.com/Takeya-Flash-Chill-Maker-pitcher/dp/B008FD037E/ref=sr_1_68?s=kitchen&ie=UTF8&qid=1475378949&sr=1-68&keywords=tea+maker
-6)FORLIFE Mist Glass Ice Tea Jug
-$28.26 
-https://www.amazon.com/FORLIFE-Mist-Glass-50-Ounce-Black/dp/B0045011DQ/ref=pd_sbs_79_7?ie=UTF8&psc=1&refRID=K29WM1ZJ9F6D8G6R8MYS
