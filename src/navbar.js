@@ -9,13 +9,14 @@ var Navbar = React.createClass({
         <nav className="navbar navbar-default navbar-fixed-top">
           <div className="container">
             <div className="navbar-header">
+              <img src="./logo-vector.png" alt = "TriniTea logo"/>
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span className="sr-only">Toggle navigation</span>
                 <span className="icon-bar">a1</span>
                 <span className="icon-bar">a2</span>
                 <span className="icon-bar">a3</span>
               </button>
-              <Link to ="/Home" className="navbar-brand"><img src="./logo-vector.jpg" alt = "TriniTea logo"></img>TriniTea</Link>
+              <Link to ="/Home" className="navbar-brand">TriniTea</Link>
             </div>
             <div id="navbar" className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
