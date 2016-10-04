@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Link, browserHistory,IndexRoute} from 'react-router';
+import {Router, Route, Link, hashHistory,IndexRoute} from 'react-router';
 
 // Styles
 import "bootstrap/dist/css/bootstrap.css";
@@ -29,14 +29,13 @@ var App = React.createClass({
 
 
 ReactDOM.render(
- <Router history={browserHistory}>
+ <Router history={hashHistory}>
  	  <Route path="/" component={App} >
-      <Route path="Home" component={Home}/>
-      <Route path="Tea" component={Tea}/>
-      {//<Route path='GreenTea' component={GreenTea}/>
-      //<Route path="Teaware" component={Teaware}/>
+      <IndexRoute component={Home}/>
+      <Route path="/Tea" component={Tea}/>
+      <Route path='/Tea/:name' component={DisplayTea}/>
+      <Route path="Teaware" component={Teaware}/>
      <Route path="About" component={About}/>
-    }
     </Route>
  </Router>,
   document.getElementById('root')

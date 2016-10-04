@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Link} from "react-router"
 
 var Tea = React.createClass({
   render: function() {
@@ -10,19 +11,19 @@ var Tea = React.createClass({
      	
      		<div className="row">
 
-			  <div id="black" className="col-md-4 col-xs-12 teaCol">
+			  <Link to="/Tea/black" id="black" className="col-md-4 col-xs-12 teaCol">
 
 
 			  	<h2>Black Tea</h2>
-		  	  </div>
+		  	</Link>
 
-			 <div id="green" className="col-md-4 col-xs-12 teaCol">
+			 <Link to="/Tea/green" id="green" className="col-md-4 col-xs-12 teaCol">
 			  	<h2>GreenTea</h2>
-			 </div>
+			 </Link>
 
-			 <div id="herbal" className="col-md-4 col-xs-12 teaCol">
+			 <Link to="/Tea/herbal" id="herbal" className="col-md-4 col-xs-12 teaCol">
 			 	<h2>Herbal Tea</h2>
-			 </div>
+			 </Link>
 
 			
 		</div>

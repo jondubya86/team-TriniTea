@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import data from "./data.js"
-import TeaItem from "./teaitem.js"
+import TeaItems from "./teaitem.js"
 
 
 var DisplayTea = React.createClass({
@@ -16,30 +16,30 @@ var DisplayTea = React.createClass({
   render: function() {
   {	
   	var arr = []
-  	if(this.prop.params.name === 'black')
+  	if(this.props.params.name === 'black')
   			{ 
   				arr.push(this.state.menuList.black.map(
-  				a => <DisplayTea name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
-  	else if(this.prop.params.name === 'green')
+  	else if(this.props.params.name === 'green')
   			{ 
   				arr.push(this.state.menuList.green.map(
-  				a => <DisplayTea name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
-  	else if(this.prop.params.name === 'herbal')
+  	else if(this.props.params.name === 'herbal')
   			{ 
   				arr.push(this.state.menuList.herbal.map(
-  				a => <DisplayTea name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
-  	else if(this.prop.params.name === 'teaware')
+  	else if(this.props.params.name === 'teaware')
   			{ 
   				arr.push(this.state.menuList.teaware.map(
-  				a => <DisplayTea name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
+  				a => <TeaItems name={a.name} price={a.price} description={a.description} ingredients={a.ingredients} />
   			))}
 }
     return (
       <div >
-  				<ul>	
+  				<ul className="arrUl">	
   					{arr}
   				</ul>
 
@@ -47,3 +47,6 @@ var DisplayTea = React.createClass({
     )
   }
 })
+
+
+export default DisplayTea;

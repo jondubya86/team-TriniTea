@@ -1,6 +1,6 @@
 import React from 'react';
 
-var LooseTea = React.createClass({
+var TeaItems = React.createClass({
 	render:function(){
 		return(
 			<li>
@@ -15,4 +15,4 @@ var LooseTea = React.createClass({
 	}
 })
 
-export default LooseTea
+export default TeaItems
