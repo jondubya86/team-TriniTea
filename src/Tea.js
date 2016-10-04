@@ -4,8 +4,26 @@ import ReactDOM from 'react-dom';
 var Tea = React.createClass({
   render: function() {
     return (
-      <div >
-     	<h1>TEA</h1>
+      
+     	 
+     	<div id="tea-grid" className="container-fluid">
+     		<div className="row">
+
+			  <div id="black" className="col-md-4">
+			  	
+			  	<h2>Black Tea</h2>
+		  	  </div>
+
+			 <div id="green" className="col-md-4">
+			  	<h2>GreenTea</h2>
+			 </div>
+
+			 <div id="herbal" className="col-md-4">
+			 	<h2>Herbal Tea</h2>
+			 </div>
+
+			
+		</div>
 
        </div>
     )
